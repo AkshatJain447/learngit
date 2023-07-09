@@ -1,0 +1,18 @@
+git --version => for checking git version
+git config --global user.name "user-name" => for adding or changing the name of user displayed in git
+git config --global user.email "user-email" => for adding or changing the email of user used in git while making changes
+
+mkdir <folder_name> => for creating a new folder in computer
+cd <folder_name> => for entering a folder.
+
+//repository is a project we can track using git 
+git init => it is used to make current folder as repository in git
+ls -a => it is used to display all the files of the repository
+git status => it is used to check the current status of the repository
+
+//staging area is used to store files which we wnat to commit, it can hold specific files
+// working directory --- git add --- > staging area --- git commit ---> repository
+git add <file_name.extension> => it is used to any file to staging area
+
+git commit -m "message" => it is used to commit all the changes made on the files in the staging area, where -m stands for message declaration and "message" refers to the message we want to display while making that commit
+git log => it is used to check the history of commits
