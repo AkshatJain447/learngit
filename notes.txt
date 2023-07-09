@@ -13,6 +13,12 @@ git status => it is used to check the current status of the repository
 //staging area is used to store files which we wnat to commit, it can hold specific files
 // working directory --- git add --- > staging area --- git commit ---> repository
 git add <file_name.extension> => it is used to any file to staging area
+git add . => is used to add all the files to the staging area.
 
 git commit -m "message" => it is used to commit all the changes made on the files in the staging area, where -m stands for message declaration and "message" refers to the message we want to display while making that commit
 git log => it is used to check the history of commits
+
+git checkout <commit hash code/branch name> => it is used to go to any particular commit using its hash code
+git checkout master => it is used to go to master commit
+
+clear => is used to clear the command area of git bash
