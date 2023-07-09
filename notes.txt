@@ -21,4 +21,17 @@ git log => it is used to check the history of commits
 git checkout <commit hash code/branch name> => it is used to go to any particular commit using its hash code
 git checkout master => it is used to go to master commit
 
+/*
+->branch is like a tree structure in git.
+->generally there are 3 branch types -
+    -> master branch = this is the main branch of the project
+    -> dev branch = this is the development branch of the project
+    -> feature branch = this is the feature branch to integrate any new feature without affecting other branches before this branch is stable
+->naming of feature branch should be like "user_name/feature_name" for ease of working and understanding
+*/
+git branch <name> => it is used to create a new branch
+git branch => it is used to display all the branches
+git checkout -b <branch_name> => it is used to create a new branch and switch to that branch.
+
+
 clear => is used to clear the command area of git bash
