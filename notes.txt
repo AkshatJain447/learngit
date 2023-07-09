@@ -32,6 +32,8 @@ git checkout master => it is used to go to master commit
 git branch <name> => it is used to create a new branch
 git branch => it is used to display all the branches
 git checkout -b <branch_name> => it is used to create a new branch and switch to that branch.
+git merge <branch_name> => it is used to merge any other branch to the current branch.
+    for ex - to integrate any feature to dev branch we can merge that branch in dev branch
 
 
 clear => is used to clear the command area of git bash
