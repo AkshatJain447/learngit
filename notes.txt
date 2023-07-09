@@ -35,5 +35,7 @@ git checkout -b <branch_name> => it is used to create a new branch and switch to
 git merge <branch_name> => it is used to merge any other branch to the current branch.
     for ex - to integrate any feature to dev branch we can merge that branch in dev branch
 
+.gitignore => this file is used to hold the names of all the files which we don't want to be in git repository. we can create this in folder externally and can put its name also in it.
+
 
 clear => is used to clear the command area of git bash
